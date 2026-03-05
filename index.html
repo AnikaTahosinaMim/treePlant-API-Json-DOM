@@ -13,9 +13,9 @@
     <main>
         <h1 class="text-3xl font-bold text-[#4ade80] text-center">Choose Your Trees</h1>
         <!-- all card section mother div -->
-        <div class="grid grid-cols-12 gap-[20px]">
-            <div class="shadow-2xl card card-body col-span-3">
-                <h1>Categories</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-12 gap-8">
+            <div class="shadow-2xl bg-white card card-body col-span-3">
+                <h1 class="text-center text-2xl tetx-">Categories</h1>
                 <div class="space-y-3">
                     <button id="allTreeBtn" class="btn btn-success w-full">All trees</button>
                     <!-- All cotagory container -->
@@ -25,8 +25,17 @@
                     </div>
                 </div>
             </div>
-            <div class="bg-gray-800 col-span-6">hi </div>
-            <div class="bg-pink-950 col-span-3">salam</div>
+            <!-- tree card -->
+            <div class="shadow-2xl bg-white card card-body col-span-6">
+                <div id="treeContainer" class="grid grid-cols-1 gap-4 sm:grid-cols-3">
+                    <!-- card -->
+                     <!-- dynamicalily added -->
+                </div>
+                <div id="loadingscan" class="h-40  items-center hidden justify-center">
+                <span class="loading loading-dots loading-lg"></span>
+            </div>
+            </div>
+            <div class="shadow-2xl bg-white card card-body col-span-3">salam</div>
         </div>
     </main>
 
