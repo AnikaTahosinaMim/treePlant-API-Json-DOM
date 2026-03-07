@@ -43,7 +43,6 @@ async function selectCatagory(categoriesId, btn) {
   });
   btn.classList.add("btn-primary");
   btn.classList.remove("btn-outline");
-
   const res = await fetch(
     `https://openapi.programming-hero.com/api/category/${categoriesId}`,
   );
